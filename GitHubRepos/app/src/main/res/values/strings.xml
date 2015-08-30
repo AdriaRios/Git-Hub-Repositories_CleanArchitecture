@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">GitHubRepos</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="activity_title">Test Android Adria Rios</string>
+
+    <string name="repo_name_text_view">Repo Name: </string>
+    <string name="login_owner_text_view">Login Owner: </string>
+    <string name="desc_text_view">Description: </string>
+
+    <string name="dialog_content">What link do you want to open?</string>
+    <string name="dialog_option1">USER PROFILE</string>
+    <string name="dialog_option2">PROJECT REPOSITORY</string>
+
+    <string name="network_error">NETWORK ERROR</string>
+</resources>

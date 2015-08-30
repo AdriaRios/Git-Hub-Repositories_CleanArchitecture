@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:background="#66CC99" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold"
+        android:text="@string/repo_name_text_view"
+        android:id="@+id/repoNameTextView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold"
+        android:id="@+id/repoNameValueTextView"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/repoNameTextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/login_owner_text_view"
+        android:id="@+id/LoginOwnerTextView"
+        android:layout_below="@+id/repoNameValueTextView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/LoginOwnerValueTextView"
+        android:layout_below="@+id/repoNameTextView"
+        android:layout_toEndOf="@+id/LoginOwnerTextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/desc_text_view"
+        android:id="@+id/DescTextView"
+        android:layout_below="@+id/LoginOwnerTextView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/DescriptionValueTextView"
+        android:layout_below="@+id/LoginOwnerTextView"
+        android:layout_toEndOf="@+id/LoginOwnerTextView" />
+</RelativeLayout>
